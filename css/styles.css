@@ -530,15 +530,12 @@ max-width: 264px;
     color:#8e8f99;
 }
 
-.customer-link :hover{
-    border-color: #404bbf;
-    color: #404bbf; 
-}
-
+.customer-link :hover,
 .customer-link :focus{
     border-color: #404bbf;
     color: #404bbf; 
 }
+
 
 .customer-pic{
     fill: currentColor;

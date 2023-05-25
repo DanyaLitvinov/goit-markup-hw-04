@@ -191,6 +191,18 @@ margin: 8px 0;
 text-align: left;
 }
 
+.small-tittle-team{
+    font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+letter-spacing: 0.02em;
+color: #2E2F42;
+margin: 8px 0;
+text-align: center;
+}
+
 
 .small-tittle-text{
 font-family: 'Roboto', sans-serif;
@@ -443,4 +455,20 @@ max-width: 264px;
 .svg-pic-atr{
     width: 64px;
     height: 64px;
+}
+
+.list-item-last-sec{
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+}
+
+.social-media-links{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+
+.social-media-items{
+    width: 40px;
+    height: 40px;
+    
 }

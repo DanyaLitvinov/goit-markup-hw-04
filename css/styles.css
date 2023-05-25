@@ -492,3 +492,54 @@ max-width: 264px;
 .social-list-icon{
     fill:#f4f4fd;
 }
+
+
+.sec-customer{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+
+.sec-customer-tittle{
+    font-size: 36px;
+    line-height: 1.11;
+    color: #2E2F42;
+    margin-bottom: 72px;
+    text-align:center;
+}
+
+
+.customer-list{
+    display:flex;
+    gap: 24px;
+}
+
+.customer-list-item{
+    width: calc((100% - 120px) / 6);
+    height:88px;
+}
+
+.customer-link{
+    width: 100%;
+    height:100%;
+    border: 1px solid #8e8f99;
+    border-radius:4px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    color:#8e8f99;
+}
+
+.customer-link :hover{
+    border-color: #404bbf;
+    color: #404bbf; 
+}
+
+.customer-link :focus{
+    border-color: #404bbf;
+    color: #404bbf; 
+}
+
+.customer-pic{
+    fill: currentColor;
+}

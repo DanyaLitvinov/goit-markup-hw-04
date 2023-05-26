@@ -17,12 +17,17 @@
     padding: 0 15px;
 }
 
+.header-container{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 li{list-style-type:none;}
 
 .navigation{
     display: flex;
     align-items: center;
-    margin-right: 76px;
     gap: 40px
 }
 
@@ -30,7 +35,6 @@ li{list-style-type:none;}
 .menu{
     display: flex;
     gap: 40px;
-    margin: 24px 0;
     padding: 0;
 }
 
@@ -239,10 +243,8 @@ margin-bottom: 72px;
 
 
 .sec-main{
-    background-color: #2e2f42;
     padding: 188px 0;
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/img-name.jpg);
-    max-width: 1440px;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -460,12 +462,14 @@ max-width: 264px;
 .list-item-last-sec{
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
     border-radius:0px 0px 4px 4px;
+    background-color: white;
 }
 
 .social-list{
     display: flex;
     justify-content: center;
     gap: 24px;
+    margin-top: 8px;
 }
 
 .social-list-item{
@@ -540,9 +544,9 @@ fill:#404bbf;
 }
 
 
-/* .customer-pic{
+.customer-pic{
     fill: currentColor;
-} */
+}
 
 
 .container-footer{

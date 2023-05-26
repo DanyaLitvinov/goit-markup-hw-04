@@ -530,13 +530,27 @@ max-width: 264px;
     color:#8e8f99;
 }
 
-.customer-link :hover,
+/* .customer-link :hover,
 .customer-link :focus{
     border-color: #404bbf;
     color: #404bbf; 
-}
+} */
 
 
 .customer-pic{
     fill: currentColor;
+}
+
+
+.container-footer{
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+
+.customer-pic :hover,
+.customer-pic :focus{
+    border-color: #404bbf;
+    background-color: #404bbf; 
 }

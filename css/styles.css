@@ -555,3 +555,34 @@ fill:#404bbf;
     margin: 0 auto;
     padding: 0 15px;
 }
+
+
+.container-footer{
+    display:flex;
+    align-items: baseline;
+}
+
+.logo-wrapper{
+    margin-right: 120px;
+}
+
+.social-container{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+}
+
+
+.footer-list{
+    display: flex;
+    gap:16px;
+}
+
+
+.footer-list-item{
+    width: 40px;
+    height:40px;
+}
